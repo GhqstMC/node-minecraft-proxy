@@ -1,5 +1,5 @@
 {
-  "name": "basic-minecraft-proxy",
+  "name": "tweaked-minecraft-proxy",
   "version": "2.0.1",
   "description": "A node.js Minecraft proxy created with node-minecraft-protocol",
   "keywords": [
@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/7ixi0/node-minecraft-proxy.git"
+    "url": "https://github.com/GhqstMC/node-minecraft-proxy.git"
   },
   "bugs": {
-    "url": "https://github.com/7ixi0/node-minecraft-proxy/issues"
+    "url": "https://github.com/GhqstMC/node-minecraft-proxy/issues"
   },
   "dependencies": {
     "minecraft-data": "^2.26.0",
