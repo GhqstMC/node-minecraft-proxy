@@ -4,7 +4,7 @@ function addListeners (remoteClient, that) {
   if (remoteClient.isFirstConnection) {
     remoteClient.on('packet', (data, metadata) => {
       if (remoteClient.localClient.state === mc.states.PLAY && metadata.state === mc.states.PLAY) {
-        remoteClient.localClient.write(metadata.name, data)
+        //remoteClient.localClient.write(metadata.name, data)
       }
     })
   }
@@ -12,7 +12,7 @@ function addListeners (remoteClient, that) {
   remoteClient.localClient.on('packet', (data, metadata) => {
     if (metadata.name === 'kick_disconnect') return
     if (remoteClient.state === mc.states.PLAY && metadata.state === mc.states.PLAY) {
-      remoteClient.write(metadata.name, data)
+      //remoteClient.write(metadata.name, data)
     }
   })
 
